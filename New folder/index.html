@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Axiom — Ship Faster</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-mark"></span>
+        <span class="logo-text">Axiom</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#preview">Product</a></li>
+        <li><a href="#testimonials">Customers</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#" class="nav-link-docs">Docs</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="#" class="btn-ghost">Sign in</a>
+        <a href="#" class="btn-primary">Get started <span class="btn-arrow">→</span></a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#preview">Product</a></li>
+      <li><a href="#testimonials">Customers</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#" class="nav-link-docs">Docs</a></li>
+      <li><a href="#" class="btn-ghost">Sign in</a></li>
+      <li><a href="#" class="btn-primary">Get started →</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="container">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Now in public beta — free for teams under 5</span>
+        <span class="badge-arrow">↗</span>
+      </div>
+      <h1 class="hero-title">
+        Build products<br />
+        <span class="title-gradient">at the speed</span><br />
+        of thought.
+      </h1>
+      <p class="hero-sub">
+        Axiom is the infrastructure layer for modern teams. Deploy anywhere, collaborate in real time, and ship with confidence.
+      </p>
+      <div class="hero-actions">
+        <a href="#" class="btn-primary btn-lg">Start building free <span class="btn-arrow">→</span></a>
+        <a href="#" class="btn-outline btn-lg">
+          <span class="play-icon">▶</span> Watch demo
+        </a>
+      </div>
+      <div class="hero-social-proof">
+        <div class="avatars">
+          <img src="https://i.pravatar.cc/32?img=1" alt="" />
+          <img src="https://i.pravatar.cc/32?img=2" alt="" />
+          <img src="https://i.pravatar.cc/32?img=3" alt="" />
+          <img src="https://i.pravatar.cc/32?img=4" alt="" />
+          <img src="https://i.pravatar.cc/32?img=5" alt="" />
+        </div>
+        <span>Trusted by <strong>12,000+</strong> engineers worldwide</span>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- LOGO STRIP -->
+  <section class="logos">
+    <div class="container">
+      <p class="logos-label">Powering teams at</p>
+      <div class="logos-strip">
+        <div class="logo-item">Stripe</div>
+        <div class="logo-item">Notion</div>
+        <div class="logo-item">Figma</div>
+        <div class="logo-item">Vercel</div>
+        <div class="logo-item">Resend</div>
+        <div class="logo-item">PlanetScale</div>
+        <div class="logo-item">Supabase</div>
+        <div class="logo-item">Railway</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Features</span>
+        <h2 class="section-title">Everything your team needs<br />to move fast.</h2>
+        <p class="section-sub">From zero to production in minutes — no config, no ops overhead, no compromises.</p>
+      </div>
+      <div class="features-grid">
+
+        <div class="feature-card feature-card--large">
+          <div class="feature-icon">⚡</div>
+          <h3>Instant Deployments</h3>
+          <p>Push to git and your app is live in seconds. Zero-config CI/CD with automatic rollbacks and preview environments for every branch.</p>
+          <div class="feature-stat">
+            <span class="stat-num">2.4s</span>
+            <span class="stat-label">avg. deploy time</span>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Edge Security</h3>
+          <p>TLS everywhere, DDoS protection, WAF rules, and automated secret rotation out of the box.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🌐</div>
+          <h3>Global Edge Network</h3>
+          <p>Deploy to 40+ regions simultaneously. Sub-10ms latency for 95% of the world's population.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Built-in Observability</h3>
+          <p>Logs, metrics, traces, and alerts — all in one place. No third-party integrations required.</p>
+        </div>
+
+        <div class="feature-card feature-card--wide">
+          <div class="feature-icon">🤝</div>
+          <h3>Real-time Collaboration</h3>
+          <p>Work alongside your team with live cursors, inline comments, and shared environments. Like Figma, but for your entire stack.</p>
+          <div class="feature-collab-avatars">
+            <img src="https://i.pravatar.cc/24?img=10" alt="" />
+            <img src="https://i.pravatar.cc/24?img=11" alt="" />
+            <img src="https://i.pravatar.cc/24?img=12" alt="" />
+            <span>+14 online now</span>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🔌</div>
+          <h3>Integrations</h3>
+          <p>GitHub, GitLab, Jira, Slack, PagerDuty and 200+ more. Connect your existing workflow.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT PREVIEW -->
+  <section class="preview" id="preview">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Product</span>
+        <h2 class="section-title">A dashboard built for<br />developer speed.</h2>
+        <p class="section-sub">Clean interfaces, keyboard-first navigation, and instant search across your entire stack.</p>
+      </div>
+      <div class="preview-window">
+        <div class="window-chrome">
+          <div class="window-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <div class="window-url">app.axiom.dev/dashboard</div>
+          <div class="window-spacer"></div>
+        </div>
+        <div class="window-body">
+          <div class="fake-sidebar">
+            <div class="sb-logo">⬡ Axiom</div>
+            <div class="sb-section">
+              <span class="sb-label">Workspace</span>
+              <div class="sb-item sb-item--active"><span>⬥</span> Overview</div>
+              <div class="sb-item"><span>⬡</span> Deployments</div>
+              <div class="sb-item"><span>◈</span> Domains</div>
+              <div class="sb-item"><span>◉</span> Analytics</div>
+            </div>
+            <div class="sb-section">
+              <span class="sb-label">Team</span>
+              <div class="sb-item"><span>◎</span> Members</div>
+              <div class="sb-item"><span>◇</span> Settings</div>
+            </div>
+          </div>
+          <div class="fake-main">
+            <div class="fake-topbar">
+              <h4>Overview</h4>
+              <div class="fake-actions">
+                <div class="fake-btn">New project +</div>
+              </div>
+            </div>
+            <div class="fake-stats">
+              <div class="fake-stat-card">
+                <span class="fsc-label">Deployments</span>
+                <span class="fsc-num">1,284</span>
+                <span class="fsc-delta fsc-up">↑ 12%</span>
+              </div>
+              <div class="fake-stat-card">
+                <span class="fsc-label">Avg. Deploy Time</span>
+                <span class="fsc-num">2.4s</span>
+                <span class="fsc-delta fsc-up">↑ 8%</span>
+              </div>
+              <div class="fake-stat-card">
+                <span class="fsc-label">Error Rate</span>
+                <span class="fsc-num">0.02%</span>
+                <span class="fsc-delta fsc-down">↓ 3%</span>
+              </div>
+            </div>
+            <div class="fake-projects">
+              <div class="fp-header">Recent Projects</div>
+              <div class="fp-row fp-row--active">
+                <div class="fp-dot fp-dot--green"></div>
+                <span class="fp-name">axiom-web</span>
+                <span class="fp-branch">main</span>
+                <span class="fp-time">just now</span>
+                <span class="fp-status fp-status--live">Live</span>
+              </div>
+              <div class="fp-row">
+                <div class="fp-dot fp-dot--blue"></div>
+                <span class="fp-name">dashboard-v2</span>
+                <span class="fp-branch">feat/new-ui</span>
+                <span class="fp-time">3m ago</span>
+                <span class="fp-status fp-status--preview">Preview</span>
+              </div>
+              <div class="fp-row">
+                <div class="fp-dot fp-dot--green"></div>
+                <span class="fp-name">api-gateway</span>
+                <span class="fp-branch">main</span>
+                <span class="fp-time">1h ago</span>
+                <span class="fp-status fp-status--live">Live</span>
+              </div>
+              <div class="fp-row">
+                <div class="fp-dot fp-dot--yellow"></div>
+                <span class="fp-name">ml-service</span>
+                <span class="fp-branch">dev</span>
+                <span class="fp-time">2h ago</span>
+                <span class="fp-status fp-status--building">Building</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Testimonials</span>
+        <h2 class="section-title">Loved by engineering<br />teams everywhere.</h2>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testi-card testi-card--featured">
+          <div class="testi-quote">"</div>
+          <p>Axiom replaced four separate tools for us. Our deploy pipeline went from 18 minutes to under 2. I genuinely don't know how we shipped anything before this.</p>
+          <div class="testi-author">
+            <img src="https://i.pravatar.cc/40?img=20" alt="" />
+            <div>
+              <strong>Sarah Chen</strong>
+              <span>VP of Engineering, Notion</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-quote">"</div>
+          <p>The DX is unlike anything I've used. Keyboard shortcuts, instant search, zero config — it just works the way your brain does.</p>
+          <div class="testi-author">
+            <img src="https://i.pravatar.cc/40?img=21" alt="" />
+            <div>
+              <strong>Marcus Webb</strong>
+              <span>Staff Engineer, Stripe</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-quote">"</div>
+          <p>We onboarded 30 engineers in a week. Axiom's documentation and defaults are so good that nobody needed hand-holding.</p>
+          <div class="testi-author">
+            <img src="https://i.pravatar.cc/40?img=22" alt="" />
+            <div>
+              <strong>Priya Nair</strong>
+              <span>CTO, Resend</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-quote">"</div>
+          <p>Our incident response time dropped by 60%. The built-in observability means we catch issues before users do.</p>
+          <div class="testi-author">
+            <img src="https://i.pravatar.cc/40?img=23" alt="" />
+            <div>
+              <strong>Tom Erikson</strong>
+              <span>SRE Lead, PlanetScale</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-quote">"</div>
+          <p>Finally, a platform that treats developers as adults. No magic abstractions that break at 3am — just clean, transparent infrastructure.</p>
+          <div class="testi-author">
+            <img src="https://i.pravatar.cc/40?img=24" alt="" />
+            <div>
+              <strong>Yuki Tanaka</strong>
+              <span>Principal Engineer, Figma</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Pricing</span>
+        <h2 class="section-title">Simple, honest pricing.</h2>
+        <p class="section-sub">No hidden fees. No usage surprises. Scale at your own pace.</p>
+      </div>
+      <div class="pricing-toggle">
+        <span class="toggle-label" id="toggleMonthly">Monthly</span>
+        <button class="toggle-btn" id="billingToggle" aria-label="Toggle billing">
+          <span class="toggle-thumb"></span>
+        </button>
+        <span class="toggle-label" id="toggleAnnual">Annual <span class="save-badge">Save 20%</span></span>
+      </div>
+      <div class="pricing-grid">
+
+        <div class="price-card">
+          <div class="price-header">
+            <span class="price-plan">Hobby</span>
+            <div class="price-amount">
+              <span class="price-num" data-monthly="0" data-annual="0">$0</span>
+              <span class="price-period">/mo</span>
+            </div>
+            <p class="price-desc">Perfect for side projects and personal use.</p>
+          </div>
+          <ul class="price-features">
+            <li><span class="check">✓</span> 3 projects</li>
+            <li><span class="check">✓</span> 1 team member</li>
+            <li><span class="check">✓</span> 100GB bandwidth</li>
+            <li><span class="check">✓</span> Community support</li>
+            <li><span class="check muted">✗</span> Custom domains</li>
+            <li><span class="check muted">✗</span> Analytics</li>
+          </ul>
+          <a href="#" class="price-cta price-cta--outline">Get started free</a>
+        </div>
+
+        <div class="price-card price-card--featured">
+          <div class="price-popular">Most Popular</div>
+          <div class="price-header">
+            <span class="price-plan">Pro</span>
+            <div class="price-amount">
+              <span class="price-num" data-monthly="29" data-annual="23">$29</span>
+              <span class="price-period">/mo</span>
+            </div>
+            <p class="price-desc">For professional developers and growing teams.</p>
+          </div>
+          <ul class="price-features">
+            <li><span class="check">✓</span> Unlimited projects</li>
+            <li><span class="check">✓</span> Up to 10 members</li>
+            <li><span class="check">✓</span> 1TB bandwidth</li>
+            <li><span class="check">✓</span> Priority support</li>
+            <li><span class="check">✓</span> Custom domains</li>
+            <li><span class="check">✓</span> Advanced analytics</li>
+          </ul>
+          <a href="#" class="price-cta price-cta--primary">Start free trial</a>
+        </div>
+
+        <div class="price-card">
+          <div class="price-header">
+            <span class="price-plan">Enterprise</span>
+            <div class="price-amount">
+              <span class="price-num">Custom</span>
+            </div>
+            <p class="price-desc">For large organizations with advanced needs.</p>
+          </div>
+          <ul class="price-features">
+            <li><span class="check">✓</span> Unlimited everything</li>
+            <li><span class="check">✓</span> SSO & SAML</li>
+            <li><span class="check">✓</span> SLA guarantee</li>
+            <li><span class="check">✓</span> Dedicated support</li>
+            <li><span class="check">✓</span> Audit logs</li>
+            <li><span class="check">✓</span> Custom contracts</li>
+          </ul>
+          <a href="#" class="price-cta price-cta--outline">Contact sales</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="cta-glow"></div>
+    <div class="container">
+      <div class="cta-inner">
+        <h2 class="cta-title">Ready to ship faster?</h2>
+        <p class="cta-sub">Join 12,000+ engineers already on Axiom. Free to start, no credit card required.</p>
+        <div class="cta-actions">
+          <a href="#" class="btn-primary btn-lg">Get started free <span class="btn-arrow">→</span></a>
+          <a href="#" class="btn-ghost">Talk to sales</a>
+        </div>
+        <p class="cta-note">No credit card required &nbsp;·&nbsp; Free plan available &nbsp;·&nbsp; Cancel anytime</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <span class="logo-mark"></span>
+            <span class="logo-text">Axiom</span>
+          </a>
+          <p>The infrastructure layer for modern teams. Deploy anywhere, ship with confidence.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Twitter/X">𝕏</a>
+            <a href="#" aria-label="GitHub">⌥</a>
+            <a href="#" aria-label="Discord">◈</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h3>Product:</h3>
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Changelog</a></li>
+              <li><a href="#">Roadmap</a></li>
+              <li><a href="#">Status</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Developers:</h3>
+            <ul>
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">API Reference</a></li>
+              <li><a href="#">CLI</a></li>
+              <li><a href="#">SDKs</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Company:</h3>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Legal:</h3>
+            <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Cookies</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Axiom, Inc. All rights reserved.</span>
+        <span class="footer-built">Built with ♥ for developers</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
